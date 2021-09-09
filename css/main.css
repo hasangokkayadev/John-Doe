@@ -1,0 +1,38 @@
+body {
+    font-family: 'Comfortaa', cursive; /*body etiketi içerisinde yazıldığı için comforta olması istenen bölümler için ayrı ayrı font family yazılmasına gerek kalmaz.*/
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 55px;
+    font-weight: 400; /*yazımız regular= 400'e karşılık geldiği için 400 yazıyoruz.*/
+    color: #fed301;
+
+}
+h2 {
+    font-size: 32px;
+    color: #fed301;
+    font-weight: 400;
+}
+h3 {
+    font-size: 23px;
+    color: #940101;
+    font-weight: 300; /*yazımız lite= 300'e karşılık geldiği için 300 yazıyoruz.*/
+}
+/*h4 {
+    color: #fed301;
+    font-weight: 400;
+}
+font-size: 16px; yazmamıza gerek yok. Çünkü body içerisini 16px tanımlamıştık.
+Ayrıca, h4 selectorünü h2 selectorü ile birleştirince h4 etiketine yönelik bilgi yazmamıza gerek kalmıyor.
+Çünkü aynı özellikleri içeriyor. 
+*/
+h2, h4 { /*selectorler arasına virgül koyarsak aynı özellikleri herbirine uygulamış oluyoruz.*/
+    font-weight: 400;
+    color: #fed301
+}
+
+p {
+    color: #000000;
+    font-weight: 300;
+}
